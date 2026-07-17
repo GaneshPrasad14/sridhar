@@ -114,7 +114,7 @@ function Navbar() {
         >
           <a href="#home" className="flex min-w-0 items-center gap-2">
             <span className="block text-xl font-bold tracking-wide">
-              SRIDHAR<span className="text-primary">.</span>
+              Sridhar Marimuthu
             </span>
           </a>
 
@@ -220,7 +220,7 @@ function Hero() {
 
           <div className="mt-12 grid max-w-lg grid-cols-3 gap-6">
             <div>
-              <div className="text-gradient-gold text-3xl font-bold"><AnimatedCounter value={3} suffix="" /></div>
+              <div className="text-gradient-gold text-3xl font-bold"><AnimatedCounter value={3} suffix="+" /></div>
               <div className="mt-1 text-xs uppercase tracking-widest text-muted-foreground">Years Experience</div>
             </div>
             <div>
@@ -297,7 +297,7 @@ function About() {
 
             <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
               {[
-                { k: "Date of Birth", v: "27 November 2002" },
+                { k: "Date of Birth", v: "26 November 2002" },
                 { k: "Nationality", v: "Indian" },
                 { k: "Languages", v: "Tamil · English · Hindi · Kannada" },
               ].map((it) => (
