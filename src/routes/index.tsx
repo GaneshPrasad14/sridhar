@@ -220,7 +220,7 @@ function Hero() {
 
           <div className="mt-12 grid max-w-lg grid-cols-3 gap-6">
             <div>
-              <div className="text-gradient-gold text-3xl font-bold"><AnimatedCounter value={2} suffix="+" /></div>
+              <div className="text-gradient-gold text-3xl font-bold"><AnimatedCounter value={3} suffix="" /></div>
               <div className="mt-1 text-xs uppercase tracking-widest text-muted-foreground">Years Experience</div>
             </div>
             <div>
@@ -297,7 +297,7 @@ function About() {
 
             <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
               {[
-                { k: "Date of Birth", v: "08 May 2002" },
+                { k: "Date of Birth", v: "27 November 2002" },
                 { k: "Nationality", v: "Indian" },
                 { k: "Languages", v: "Tamil · English · Hindi · Kannada" },
               ].map((it) => (
@@ -389,10 +389,10 @@ function VisionCard({
 function Experience() {
   const jobs = [
     {
-      company: "EHOOK REALTY",
+      company: "Ehook Realty",
       role: "Site Engineer",
-      period: "June 2023 — Present",
-      note: "2+ Years Total Experience",
+      period: "June 2025 - July 2026",
+      note: "3 Years Total Experience",
       points: [
         "Civil experience in residential projects across Bengaluru (5 sites).",
         "Skilled in site execution, material management, and vendor coordination.",
@@ -400,9 +400,9 @@ function Experience() {
       ],
     },
     {
-      company: "MC LAMOUR CONSTRUCTION",
+      company: "MCLamour Construction",
       role: "Site Engineer",
-      period: "Nov 2022 — Nov 2024",
+      period: "June 2023 - May 2025",
       note: "Residential & Foundation Work",
       points: [
         "Completed two residential building projects in Coimbatore.",
@@ -714,33 +714,33 @@ function Contact() {
                 <ContactItem
                   icon={Phone}
                   label="Phone"
-                  value="+91 97865 80466"
-                  href="tel:+919786580466"
+                  value="+91 97865 88466"
+                  href="tel:+919786588466"
                 />
                 <ContactItem
                   icon={Mail}
                   label="Email"
-                  value="sridharmarimuthu30@gmail.com"
-                  href="mailto:sridharmarimuthu30@gmail.com"
+                  value="sridharmarimuthu0603@gmail.com"
+                  href="mailto:sridharmarimuthu0603@gmail.com"
                 />
                 <div className="sm:col-span-2">
                   <ContactItem
                     icon={MapPin}
                     label="Location"
-                    value="Kaven Thottam, Kadamalaikundu, Theni, Tamil Nadu – 625 536"
+                    value="Coimbatore"
                   />
                 </div>
               </div>
 
               <div className="mt-8 flex flex-wrap items-center gap-3">
                 <a
-                  href="mailto:sridharmarimuthu30@gmail.com"
+                  href="mailto:sridharmarimuthu0603@gmail.com"
                   className="inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[0_10px_40px_-10px_oklch(0.82_0.14_85_/_0.6)] transition-transform hover:scale-105"
                 >
                   Start a Project <ArrowRight className="h-4 w-4" />
                 </a>
                 <a
-                  href="tel:+919786580466"
+                  href="tel:+919786588466"
                   className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:border-primary/50 hover:text-primary"
                 >
                   Call Directly
