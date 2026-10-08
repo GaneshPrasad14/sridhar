@@ -192,9 +192,9 @@ function Hero() {
             <span className="text-gradient-gold">MARIMUTHU</span>
           </h1>
           <p className="mt-6 max-w-xl text-base text-muted-foreground sm:text-lg">
-            Managing Director at{" "}
+            Civil Engineer &{" "}
             <span className="font-semibold text-foreground">
-              LAAMARIX INFRA Construction & Builders
+              Site Engineer
             </span>
             .
           </p>
@@ -240,7 +240,7 @@ function Hero() {
             <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-surface">
               <img
                 src={heroImg}
-                alt="Sridhar Marimuthu, Civil Engineer and Managing Director"
+                alt="Sridhar Marimuthu, Civil Engineer and Site Engineer"
                 width={1024}
                 height={1280}
                 className="h-[560px] w-full object-cover"
@@ -249,9 +249,9 @@ function Hero() {
               <div className="absolute bottom-5 left-5 right-5 flex items-end justify-between">
                 <div>
                   <div className="text-[10px] uppercase tracking-[0.3em] text-primary">
-                    Managing Director
+                    Civil Engineer
                   </div>
-                  <div className="mt-1 text-lg font-semibold">LAAMARIX INFRA</div>
+                  <div className="mt-1 text-lg font-semibold">Site Engineer</div>
                 </div>
               </div>
             </div>
@@ -283,9 +283,8 @@ function About() {
             <p className="text-lg leading-relaxed text-muted-foreground">
               I am a <span className="font-medium text-foreground">Civil Engineer</span> and
               construction professional with hands-on experience in site execution, planning, and
-              project management. Currently, I serve as the{" "}
-              <span className="font-medium text-primary">Managing Director</span> of LAAMARIX INFRA
-              Construction & Builders, leading a team dedicated to delivering high-quality,
+              project management. Currently, I work as a{" "}
+              <span className="font-medium text-primary">Site Engineer</span>, leading a team dedicated to delivering high-quality,
               innovative, and sustainable construction solutions.
             </p>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground">
@@ -391,7 +390,7 @@ function Experience() {
     {
       company: "Ehook Realty",
       role: "Site Engineer",
-      period: "June 2025 - July 2026",
+      period: "June 2025 - Sept 2026",
       note: "3 Years Total Experience",
       points: [
         "Civil experience in residential projects across Bengaluru (5 sites).",
@@ -402,7 +401,7 @@ function Experience() {
     {
       company: "MCLamour Construction",
       role: "Site Engineer",
-      period: "June 2023 - May 2025",
+      period: "Nov 2023 - May 2025",
       note: "Residential & Foundation Work",
       points: [
         "Completed two residential building projects in Coimbatore.",
@@ -720,8 +719,8 @@ function Contact() {
                 <ContactItem
                   icon={Mail}
                   label="Email"
-                  value="sridharmarimuthu0603@gmail.com"
-                  href="mailto:sridharmarimuthu0603@gmail.com"
+                  value="sridharmarimuthu03@gmail.com"
+                  href="mailto:sridharmarimuthu03@gmail.com"
                 />
                 <div className="sm:col-span-2">
                   <ContactItem
@@ -734,7 +733,7 @@ function Contact() {
 
               <div className="mt-8 flex flex-wrap items-center gap-3">
                 <a
-                  href="mailto:sridharmarimuthu0603@gmail.com"
+                  href="mailto:sridharmarimuthu03@gmail.com"
                   className="inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[0_10px_40px_-10px_oklch(0.82_0.14_85_/_0.6)] transition-transform hover:scale-105"
                 >
                   Start a Project <ArrowRight className="h-4 w-4" />
@@ -752,7 +751,7 @@ function Contact() {
 
         <footer className="mt-10 flex flex-col items-center justify-between gap-3 py-8 text-xs text-muted-foreground sm:flex-row">
           <div>
-            © {new Date().getFullYear()} Sridhar Marimuthu · LAAMARIX INFRA. All rights reserved.
+            © {new Date().getFullYear()} Sridhar Marimuthu. All rights reserved.
           </div>
         </footer>
       </div>
